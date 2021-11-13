@@ -11,6 +11,9 @@ import java.util.Map;
 @Controller
 public class MyController {
 
+  //================================================================
+  // ADD PERSON
+  //================================================================
   @ResponseBody
   @RequestMapping("/AddPerson")
   public String addPerson(@RequestParam Map<String, Object> requestParameters) {
